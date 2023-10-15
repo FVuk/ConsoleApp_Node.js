@@ -1,0 +1,21 @@
+{
+  "name": "consoleapp_node",
+  "version": "1.0.0",
+  "description": "NodeJS GOIT homework",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Filip Vukić",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "nanoid": "^5.0.1"
+  }
+}
